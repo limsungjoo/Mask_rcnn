@@ -44,3 +44,4 @@ def onmouse(event,x,y,flags,params):
 img = np.zeros((512,512,3), np.uint8)
 cv2.namedWindow('image')
 cv2.setMouseCallback('image',onmouse)
+cv2.imshow('image',img)
